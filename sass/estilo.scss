@@ -1,0 +1,35 @@
+* { margin: 0; padding: 0;}
+@import "_variable";
+
+/*__________________________________________________________________________________________HEADER*/
+header { background-color: white;}
+
+header { 
+        @include notomedium;
+}
+
+/*__________________________________________________________________________________________FOOTER*/
+footer { background-color: $crema;}
+
+footer p { 
+            @include robolight;
+            color: $azul;
+            margin-top: 2%;
+            margin-left: 1%;
+        }
+
+footer a { 
+            @include robolight;
+            color: $azul;
+}
+
+footer h5 { 
+            @include notoblack;
+            color: $azul; 
+}
+
+.footer-copyright { @include notomedium;
+                    font-size: 12px; 
+                    color: $azul;
+                }
+
